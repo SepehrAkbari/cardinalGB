@@ -1,0 +1,2 @@
+minDeg,maxDeg,meanDeg,varDeg,purePowerLeadTerms,dim,mingens,degree,regularity
+2,4,17/5,16/25,2,1,6,-1,-1
