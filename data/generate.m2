@@ -6,9 +6,9 @@ load "generateBinomialDataSets.m2"
 
 
 -- CONFIGURATION
-coeffRing = ZZ/32003
+coeffRing = QQ
 polyCount = 5
-sampleSize = 1
+sampleSize = 5
 numVars = 3
 maxDegree = 4
 isHmgns = false
