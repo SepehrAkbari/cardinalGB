@@ -25,7 +25,7 @@ M2 --script generate.m2
 
 ### Result
 
-The resulting dataset will be saved in the [dataset](data/dataset) directory as CSV files, with a prefix based on the configuration:
+The resulting dataset will be saved in the [dataset](./dataset) directory as CSV files, with a prefix based on the configuration:
 
 - {prefix}_data: generated ideals in $p_1 t_1 v_1, \ldots p_k t_2 v_n$.
 - {prefix}_features: extracted features for each ideal.
