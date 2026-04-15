@@ -4,7 +4,7 @@ We create a dataset of random binomial ideals, compute their Gröbner bases, and
 
 ### Usage
 
-To create the dataset, configure the parameters in [`generate.M2`](data/generate.M2):
+To create the dataset, configure the parameters in [`generate.M2`](./generate.m2):
 
 - `coeffRing`: Coefficient ring for the polynomial ring (ring).
 - `polyCount`: Number of polynomials in the ideal (int).
