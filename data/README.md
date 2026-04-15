@@ -23,9 +23,16 @@ cd data
 M2 --script generate.m2
 ```
 
+### Result
+
 The resulting dataset will be saved in the [dataset](data/dataset) directory as CSV files, with a prefix based on the configuration:
 
 - {prefix}_data: generated ideals in $p_1 t_1 v_1, \ldots p_k t_2 v_n$.
 - {prefix}_features: extracted features for each ideal.
 - {prefix}_gbSizes: size of the Gröbner basis for each ideal.
 - {prefix}_gbMaxDeg: maximum degree of the Gröbner basis elements for each ideal.
+
+The filename prefix is constructed as:
+
+{poly_type}-{`sampleSize`}-d{`maxDegree`}-v{`numVars`}-b{`polyCount`}-{`coeffRing`}-{`monOrder`}.
+
