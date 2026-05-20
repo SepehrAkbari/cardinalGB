@@ -1,6 +1,6 @@
 ## Data
 
-We create a dataset of random binomial ideals, compute their Gröbner bases, and extract features for model training.
+We create a dataset of random binomial ideals, compute their Gröbner bases, and extract features for model training. The methodology to create the dataset is accredited to Sonja Petrović and Dasani Stasi.
 
 ### Usage
 
